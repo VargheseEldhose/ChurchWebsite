@@ -1,19 +1,21 @@
-import {View,Text} from 'react-native'
+import {View} from 'react-native'
 
 import Footer from '../reusable/Footer';
 import church from '../images/church.jpeg'
 import church2 from '../images/church 2.jpeg'
 import ImageSlider from '../components/ImageSlider';
 
+import 'reactjs-popup/dist/index.css';
+import Header from '../components/Header';
+import { Button } from 'react-native-web'
+
 const images=[church,church2]
 
  function HomePage({navigation}) {
 return(
     <View> 
-         <h1 style={{padding:30,marginTop:-5,marginBottom:-10,color:'white',background:'#4169e1'}}>St. Mark's Syriac Orthodox Church
-         <h6 style={{fontFamily:'sans-serif',fontSize:'16px',marginTop:25,marginBottom:10}}>167 Willet street</h6>
-         <h6 style={{fontFamily:'sans-serif',fontSize:'16px',marginTop:-3}}>Halifax, Nova Scotia</h6>
-         </h1>
+        <Header navigation={navigation}></Header>
+ 
 <ImageSlider  images={images}></ImageSlider>
         
 <div style={{background:'#d3d3d3',margin:20}}>
