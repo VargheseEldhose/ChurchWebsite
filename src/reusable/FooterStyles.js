@@ -30,6 +30,10 @@ export const Column = styled.div`
 	flex-direction: column;
 	text-align: left;
 	margin-left: 60px;
+
+	@media(max-width:1000px){
+		margin-left:30px;
+	}
     
 `;
 

@@ -1,6 +1,7 @@
 .image-slider {
-    width: 410px;
+   max-width: 100%;
    margin-top: 14px;
+   min-width: 400px;
     text-align: center;
   }
   .image-slider .slick-dots {
@@ -16,8 +17,8 @@
 
   .slick-next{
     visibility: hidden;
-    margin-right: 80px;
-    margin-left: -80px;
+    margin-right: 90px;
+    margin-left: -90px;
    
     height: 0px;
     width: 0px;

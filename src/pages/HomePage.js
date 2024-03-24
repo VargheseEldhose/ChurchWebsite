@@ -16,14 +16,15 @@ return(
     <View> 
         <Header navigation={navigation}></Header>
  
-<ImageSlider  images={images}></ImageSlider>
         
-<div style={{background:'#d3d3d3',margin:20}}>
+<ImageSlider  images={images}></ImageSlider>
+
+<div style={{background:'#d3d3d3',margin:30}}>
 
 <h2 style={{fontFamily:'sans-serif', fontSize:'30px', fontWeight:'bolder',margin:20}}>UPCOMING EVENTS</h2>
 <div style={{display:'flex',flexDirection:'row'}}>
-    <p style={{font:'caption',fontSize:'25px',fontWeight:'bolder',marginTop:20,marginLeft:20}}>March 23rd</p>
-    <p style={{font:'caption',fontSize:'25px',fontWeight:'bolder',margin:20}}>Hosana Service<p style={{font:'caption',fontSize:'16px',marginTop:-1}}>Saturday 12PM</p></p>
+    <p style={{font:'caption',fontSize:'25px',fontWeight:'bolder',marginTop:20,marginLeft:20}}></p>
+    <p style={{font:'caption',fontSize:'25px',fontWeight:'bolder',margin:20}}><p style={{font:'caption',fontSize:'16px',marginTop:-1}}></p></p>
 
     </div>
 
@@ -35,7 +36,6 @@ return(
 
 
 </div>
-      
       
          <Footer></Footer>
          
