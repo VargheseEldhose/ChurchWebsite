@@ -33,10 +33,10 @@ function HomeMenu({navigation}) {
     handleClose()
   
   };
-  function handleNavServices  ()  {
+  function handleNavGallery ()  {
    
     
-    navigation.navigate('Home')
+    navigation.navigate('Gallery')
     handleClose()
   
   };
@@ -59,7 +59,7 @@ function HomeMenu({navigation}) {
        
         <MenuItem onClick={handleNavHome}>Home</MenuItem>
         <MenuItem onClick={handleNavAbout} >About</MenuItem>
-        <MenuItem onClick={handleNavServices}>Services</MenuItem>
+        <MenuItem onClick={handleNavGallery}>Gallery</MenuItem>
         
      
       </Menu>

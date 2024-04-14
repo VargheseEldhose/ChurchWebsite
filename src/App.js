@@ -10,6 +10,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack'
 import HomeMenu from './components/HomeMenu';
 import Header from './components/Header';
 import AboutPage from './pages/AboutPage';
+import Gallery from './pages/Gallery';
 
 
 
@@ -35,6 +36,7 @@ function App() {
        
       
      <Stack.Screen name="About" component={AboutPage} options={{ title: 'Event posted' }}></Stack.Screen>
+     <Stack.Screen name="Gallery" component={Gallery}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   
